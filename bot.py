@@ -47,7 +47,7 @@ COLORS = (
 )
 
 map_colors = {
-    (190, 0, 57): 'Dark Red'
+    (190, 0, 57): 'Dark Red',
     (255, 69, 0): 'Red',
     (255, 168, 0): 'Orange',
     (255, 214, 53): 'Yellow',
