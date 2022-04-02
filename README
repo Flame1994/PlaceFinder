@@ -11,6 +11,3 @@ Example:
 !place 10 10 20 20 60
 
 This will wait for people to opt-in to place pixels in the grid starting at coordinates 10,10 (top left corner) till 20,20 (bottom right corner). It will wait 60 seconds for people to opt in before assigning pixels to them.
-
-[InternetShortcut]
-URL=https://cdn.discordapp.com/attachments/959464666894041154/959721265625702400/unknown.png
