@@ -20,17 +20,25 @@ client = discord.Client()
 bot = commands.Bot(command_prefix='!')
 
 COLORS = (
+    (190, 0, 57), # dark red
     (255, 69, 0), # red
     (255, 168, 0), # orange
     (255, 214, 53), # yellow
-    (0, 163, 104), # green
-    (126, 237, 86), # lime
+    (0, 163, 104), # dark green
+    (0, 204, 120), # green
+    (126, 237, 86), # light green
+    (0, 117, 111), # dark teal
+    (0, 158, 170), # teal
     (36, 80, 164), # dark blue
     (54, 144, 234), # blue
     (81, 233, 244), # light blue
+    (73, 58, 193), # indigo
+    (106, 92, 255), # periwinkle
     (129, 30, 159), # dark purple
     (180, 74, 192), # light purple
-    (255, 153, 170), # pink
+    (255, 56, 129), # pink
+    (255, 153, 170), # light pink
+    (109, 72, 47), # dark brown
     (156, 105, 38), # brown
     (0, 0, 0), # black
     (137, 141, 144), # dark gray
@@ -39,17 +47,25 @@ COLORS = (
 )
 
 map_colors = {
+    (190, 0, 57): 'Dark Red'
     (255, 69, 0): 'Red',
     (255, 168, 0): 'Orange',
     (255, 214, 53): 'Yellow',
-    (0, 163, 104): 'Green',
-    (126, 237, 86): 'Lime',
+    (0, 163, 104): 'dark green',
+    (0, 204, 120): 'Green',
+    (126, 237, 86): 'Light Green',
+    (0, 117, 111): 'Dark Teal',
+    (0, 158, 170): 'Teal',
     (36, 80, 164): 'Dark Blue',
     (54, 144, 234): 'Blue',
     (81, 233, 244): 'Light Blue',
+    (73, 58, 193): 'Indigo',
+    (106, 92, 255): 'Periwinkle',
     (129, 30, 159): 'Dark Purple',
     (180, 74, 192): 'Light Purple',
-    (255, 153, 170): 'Pink',
+    (255, 56, 129): 'Pink',
+    (255, 153, 170): 'Light Pink',
+    (109, 72, 47): 'Dark Brown',
     (156, 105, 38): 'Brown',
     (0, 0, 0): 'Black',
     (137, 141, 144): 'Dark Gray',
