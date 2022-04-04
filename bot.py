@@ -113,7 +113,7 @@ def closest_color(r, g, b):
 def get_colour_name(rgb):
     return map_colors[rgb]
 
-@bot.command(name='test')
+@bot.command(name='place')
 async def place(ctx, x1, y1, x2, y2, image, seconds=60):
     if x2 < x1:
         await ctx.send('Second x coordinate can\'t be less than first x coordinate')
